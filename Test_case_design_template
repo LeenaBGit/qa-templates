@@ -1,0 +1,38 @@
+#  Test Case Document
+
+##  Module Name:
+<Enter the module or feature name here>
+
+##  User Story / Requirement Reference:
+<Enter Jira ID or user story description>
+
+---
+
+##  Test Case Details
+
+| Test Case ID | Test Scenario                         | Test Steps | Test Data | Expected Result | Actual Result | Status (Pass/Fail) | Comments |
+|--------------|----------------------------------------|------------|-----------|------------------|----------------|---------------------|----------|
+| TC_001       | Login with valid credentials           | 1. Go to login page  <br>2. Enter valid username/password <br>3. Click Login | user1 / pass123 | Dashboard is displayed |  |  |  |
+| TC_002       | Login with incorrect password          | 1. Go to login page <br>2. Enter valid username + wrong password <br>3. Click Login | user1 / wrongpass | Error message displayed |  |  |  |
+| TC_003       | Password field masked                  | 1. Navigate to login page <br>2. Check password input field | N/A | Password should be hidden |  |  |  |
+
+---
+
+##  Test Coverage:
+- Functional Testing
+- Boundary Testing
+- Negative Testing
+- UI/UX Validation
+- Security (if applicable)
+
+##  Related Artifacts:
+- [Test Plan](#)
+- [User Story](#)
+- [Design Document](#)
+
+---
+
+##  Created By:
+**Name:** Leena Barua  
+**Date:** YYYY-MM-DD  
+**Reviewed By:** <Reviewer Name>
